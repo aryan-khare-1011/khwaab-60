@@ -1,21 +1,24 @@
 const products = [
-  {id:1,name:"Gulnaar Rose Kurta",collection:"Modern heirloom",category:"Festive",price:2499,rating:4.9,reviews:124,eta:42,img:"product-1.webp",tag:"CURATOR'S PICK",desc:"A rose-toned straight kurta with restrained embroidery, a fluid fall and an occasion-ready finish."},
-  {id:2,name:"Ivory Mehr Kurta",collection:"Quiet luxury",category:"Everyday",price:1699,rating:4.7,reviews:86,eta:34,img:"product-2.webp",tag:"NEW",desc:"A soft, breathable kurta shaped for everyday polish with subtle woven texture and an easy silhouette."},
-  {id:3,name:"Rani Zari Anarkali",collection:"Ceremony edit",category:"Wedding",price:2899,rating:4.9,reviews:61,eta:53,img:"product-3.webp",tag:"LIMITED",desc:"A jewel-toned anarkali with a graceful sweep and delicate zari-inspired accents for evening ceremonies."},
-  {id:4,name:"Nayab Tailored Kurta",collection:"Power dressing",category:"Workwear",price:1499,rating:4.6,reviews:93,eta:28,img:"product-4.webp",tag:"28 MIN",desc:"A sharply edited kurta with clean lines, controlled colour and just enough detail for an important workday."},
-  {id:5,name:"Aabroo Panelled Kurta",collection:"Royal minimalism",category:"Festive",price:2199,rating:4.8,reviews:79,eta:47,img:"product-5.webp",tag:"MOST LOVED",desc:"Panelled construction and a rich colour story give this festive kurta presence without excess."},
-  {id:6,name:"Saanjh Chanderi Kurta",collection:"After-dark edit",category:"Festive",price:1999,rating:4.7,reviews:55,eta:39,img:"product-6.webp",tag:"",desc:"A lightweight Chanderi-inspired look with a luminous surface and softly structured evening silhouette."},
-  {id:7,name:"Nilofer Woven Kurta",collection:"Day atelier",category:"Everyday",price:1299,rating:4.5,reviews:142,eta:31,img:"product-7.webp",tag:"ATELIER VALUE",desc:"An effortless straight kurta with tiny woven motifs, gentle colour and all-day comfort."},
-  {id:8,name:"Sitara Ceremony Kurta",collection:"Grand occasion",category:"Wedding",price:2999,rating:4.9,reviews:37,eta:58,img:"product-8.webp",tag:"STATEMENT",desc:"A confident ceremony look with ornate detailing, a regal palette and a dramatic, photo-ready finish."}
+  {id:1,name:"Gulnaar Phool Kurta Set",collection:"Pink city florals",category:"Festive",price:1299,rating:4.9,reviews:124,eta:32,img:"product-1.webp?v=lucknow-11",tag:"CURATOR'S PICK",desc:"An ivory wrap-style kurta scattered with rose-pink florals, paired with flowing pink trousers for an easy festive statement."},
+  {id:2,name:"Mehr Indigo Anarkali",collection:"Ink & ivory",category:"Wedding",price:1499,rating:4.8,reviews:86,eta:38,img:"product-2.webp?v=lucknow-11",tag:"NEW",desc:"A softly flared ivory anarkali set framed with intricate indigo motifs and a matching printed dupatta."},
+  {id:3,name:"Neelbagh Block Kurta",collection:"Heritage blocks",category:"Workwear",price:1199,rating:4.7,reviews:93,eta:27,img:"product-3.webp?v=lucknow-11",tag:"27 MIN",desc:"A deep indigo straight kurta with rust-red botanical panels and hand-block character for confident everyday dressing."},
+  {id:4,name:"Pista Bagh Kurta Set",collection:"Garden morning",category:"Everyday",price:999,rating:4.6,reviews:142,eta:31,img:"product-4.webp?v=lucknow-11",tag:"ATELIER VALUE",desc:"A soothing pistachio kurta set with tiny leaf motifs, floral borders and a light ivory dupatta."},
+  {id:5,name:"Gulabi Jaal Kurta Set",collection:"Soft ceremony",category:"Festive",price:1499,rating:4.9,reviews:61,eta:46,img:"product-5.webp?v=lucknow-11",tag:"LIMITED",desc:"An ivory floral kurta set layered with a pink jaal-print dupatta for intimate celebrations and daytime ceremonies."},
+  {id:6,name:"Noor Paisley Kurta Set",collection:"Courtyard edit",category:"Everyday",price:1399,rating:4.8,reviews:79,eta:35,img:"product-6.webp?v=lucknow-11",tag:"MOST LOVED",desc:"An ivory and leafy-green paisley set with a graceful long line, finished with a coordinated border dupatta."},
+  {id:7,name:"Feroza Gul Kurta Set",collection:"Blue blossom",category:"Festive",price:1299,rating:4.7,reviews:55,eta:41,img:"product-7.webp?v=lucknow-11",tag:"FRESH DROP",desc:"A turquoise floral kurta set balanced by an airy ivory dupatta with berry-toned borders and botanical accents."},
+  {id:8,name:"Surkh Ajrakh Kurti",collection:"Rust & rhythm",category:"Everyday",price:1099,rating:4.8,reviews:48,eta:29,img:"product-8.webp?v=lucknow-11",tag:"NEW ARRIVAL",desc:"A rust-red square-neck kurti with repeating geometric motifs and an easy straight silhouette. Style it with wide black trousers for a relaxed evening out."},
+  {id:9,name:"Zaitoon Rose Kurta Set",collection:"Olive afternoon",category:"Workwear",price:1399,rating:4.8,reviews:63,eta:36,img:"product-9.webp?v=lucknow-11",tag:"THE GREEN EDIT",desc:"An olive-green straight kurta with delicate rose outlines, paired with tonal trousers and a coordinated dupatta for graceful everyday dressing."},
+  {id:10,name:"Gulabi Leher Kurta",collection:"Blush in bloom",category:"Everyday",price:1099,rating:4.7,reviews:37,eta:33,img:"product-10.webp?v=lucknow-11",tag:"FRESH DROP",desc:"A soft pink kurta with flowing floral stripes, a shaped neckline and gently flared sleeves, made for slow afternoons and impromptu plans."},
+  {id:11,name:"Noor Siyah Kurta Set",collection:"After-dark heirloom",category:"Wedding",price:1499,rating:4.9,reviews:52,eta:43,img:"product-11.webp?v=lucknow-11",tag:"EVENING EDIT",desc:"An understated black kurta and trouser set traced with pale floral embroidery at the neckline, sleeves and hems. A quietly regal choice for evening celebrations."}
 ];
 
 const locations = [
-  ["Hauz Khas","42 min"],
-  ["Saket","28 min"],
-  ["Green Park","36 min"],
-  ["Vasant Kunj","52 min"],
-  ["Lajpat Nagar","48 min"],
-  ["Gurugram Sector 43","59 min"]
+  ["Hazratganj","28 min"],
+  ["Gomti Nagar","34 min"],
+  ["Indira Nagar","38 min"],
+  ["Mahanagar","32 min"],
+  ["Aliganj","41 min"],
+  ["Raebareli Road","49 min"]
 ];
 
 const state = {
@@ -24,9 +27,9 @@ const state = {
   filter:"All",
   query:"",
   sort:"popular",
-  maxPrice:3000,
+  maxPrice:1500,
   fastOnly:false,
-  location:"Hauz Khas",
+  location:"Hazratganj",
   activeProduct:null,
   selectedSize:"M"
 };
@@ -145,7 +148,7 @@ function renderActiveFilters(){
   const filters = [];
   if(state.filter !== "All") filters.push({label:state.filter,clear:"filter"});
   if(state.query) filters.push({label:`“${state.query}”`,clear:"query"});
-  if(state.maxPrice < 3000) filters.push({label:`Under ${money(state.maxPrice)}`,clear:"price"});
+  if(state.maxPrice < 1500) filters.push({label:`Under ${money(state.maxPrice)}`,clear:"price"});
   if(state.fastOnly) filters.push({label:"Under 40 min",clear:"fast"});
   $("#activeFilters").innerHTML = filters.map(filter =>
     `<button data-clear-filter="${filter.clear}">${filter.label} ×</button>`
@@ -153,7 +156,7 @@ function renderActiveFilters(){
   $$("[data-clear-filter]").forEach(button => button.onclick = () => {
     if(button.dataset.clearFilter === "filter") state.filter = "All";
     if(button.dataset.clearFilter === "query"){ state.query = ""; $("#searchInput").value = ""; }
-    if(button.dataset.clearFilter === "price"){ state.maxPrice = 3000; $("#budgetRange").value = 3000; $("#budgetValue").textContent = money(3000); }
+    if(button.dataset.clearFilter === "price"){ state.maxPrice = 1500; $("#budgetRange").value = 1500; $("#budgetValue").textContent = money(1500); }
     if(button.dataset.clearFilter === "fast"){ state.fastOnly = false; $("#fastToggle").checked = false; }
     syncFilterButtons();
     renderProducts();
@@ -196,7 +199,7 @@ function totals(){
   const subtotal = Object.entries(state.cart).reduce((sum,[id,quantity]) => {
     return sum + products.find(product => product.id == id).price * quantity;
   },0);
-  const fee = subtotal >= 1999 ? 0 : 99;
+  const fee = subtotal >= 1499 ? 0 : 69;
   return {
     subtotal,
     fee,
@@ -227,10 +230,10 @@ function renderCart(){
   $("#total").textContent = money(summary.total);
   $("#checkoutTotal").textContent = `${money(summary.total)} ↗`;
   $("#placeOrderTotal").textContent = `${money(summary.total)} ↗`;
-  $("#progressBar").style.width = `${Math.min(100,summary.subtotal / 1999 * 100)}%`;
-  $("#cartDeliveryCopy").textContent = summary.subtotal >= 1999
+  $("#progressBar").style.width = `${Math.min(100,summary.subtotal / 1499 * 100)}%`;
+  $("#cartDeliveryCopy").textContent = summary.subtotal >= 1499
     ? `Complimentary delivery · by ${deliveryTime}`
-    : `${money(1999 - summary.subtotal)} away from complimentary delivery`;
+    : `${money(1499 - summary.subtotal)} away from complimentary delivery`;
   $$("[data-cart-add]").forEach(button => button.onclick = () => changeQuantity(+button.dataset.cartAdd,1));
   $$("[data-cart-dec]").forEach(button => button.onclick = () => changeQuantity(+button.dataset.cartDec,-1));
   $$("[data-remove]").forEach(button => button.onclick = () => {
@@ -275,7 +278,7 @@ function renderLocations(query=""){
   const list = locations.filter(([name]) => name.toLowerCase().includes(query.toLowerCase()));
   $("#locationList").innerHTML = list.map(([name,eta]) => `
     <button data-location="${name}">
-      <span><strong>${name}</strong><small>${name === state.location ? "Current delivery area" : "Served by Saket atelier"}</small></span>
+      <span><strong>${name}</strong><small>${name === state.location ? "Current delivery area" : "Served by Hazratganj atelier"}</small></span>
       <b>● ${eta}</b>
     </button>
   `).join("");
@@ -312,11 +315,11 @@ $("#sortSelect").onchange = event => {
 $("#clearSearch").onclick = () => {
   state.query = "";
   state.filter = "All";
-  state.maxPrice = 3000;
+  state.maxPrice = 1500;
   state.fastOnly = false;
   $("#searchInput").value = "";
-  $("#budgetRange").value = 3000;
-  $("#budgetValue").textContent = money(3000);
+  $("#budgetRange").value = 1500;
+  $("#budgetValue").textContent = money(1500);
   $("#fastToggle").checked = false;
   syncFilterButtons();
   renderProducts();
@@ -369,7 +372,7 @@ $("#mobileSearch").onclick = () => {
 };
 $(".menu-trigger").onclick = () => showToast("Collections: Everyday · Work · Festive · Wedding");
 $("#wishlistButton").onclick = () => showToast(state.wishes.size ? `${state.wishes.size} saved ${state.wishes.size === 1 ? "look" : "looks"}` : "Use the heart to build a private edit");
-$("#arrivalInfo").onclick = () => showToast("Nearby inventory is reserved, checked and dispatched from the Saket atelier");
+$("#arrivalInfo").onclick = () => showToast("Lucknow inventory is reserved, checked and dispatched from the Hazratganj atelier");
 $("#conciergeButton").onclick = $("#heroConcierge").onclick = $("#bannerConcierge").onclick = $("#mobileConcierge").onclick = $("#footerConcierge").onclick = event => {
   event?.preventDefault();
   openConcierge();
@@ -432,12 +435,12 @@ function registerWebMCP(){
     name:"search_khwaab_wardrobe",
     title:"Search the Khwaab wardrobe",
     description:"Search the visible nearby wardrobe by query, occasion and maximum price.",
-    inputSchema:{type:"object",properties:{query:{type:"string"},occasion:{type:"string",enum:["All","Everyday","Workwear","Festive","Wedding"]},max_price:{type:"number",minimum:1200,maximum:3000}},additionalProperties:false},
+    inputSchema:{type:"object",properties:{query:{type:"string"},occasion:{type:"string",enum:["All","Everyday","Workwear","Festive","Wedding"]},max_price:{type:"number",minimum:900,maximum:1500}},additionalProperties:false},
     annotations:{readOnlyHint:true,untrustedContentHint:false},
     execute(input={}){
       const query = typeof input.query === "string" ? input.query.toLowerCase() : "";
       const occasion = input.occasion || "All";
-      const maxPrice = input.max_price || 3000;
+      const maxPrice = input.max_price || 1500;
       return products.filter(product =>
         (occasion === "All" || product.category === occasion) &&
         `${product.name} ${product.collection}`.toLowerCase().includes(query) &&
@@ -448,7 +451,7 @@ function registerWebMCP(){
   register({
     name:"reserve_khwaab_piece",
     title:"Reserve and add a piece",
-    description:"Reserve one catalogue piece in a chosen size and add it to the visible demo bag.",
+    description:"Reserve one catalogue piece in a chosen size and add it to the visible bag.",
     inputSchema:{type:"object",properties:{product_id:{type:"integer",minimum:1},size:{type:"string",enum:["S","M","L","XL"]}},required:["product_id","size"],additionalProperties:false},
     annotations:{readOnlyHint:false,untrustedContentHint:false},
     execute(input){
@@ -462,12 +465,12 @@ function registerWebMCP(){
   register({
     name:"set_khwaab_delivery_area",
     title:"Set delivery area",
-    description:"Select a supported demo neighbourhood and update the visible atelier availability.",
+    description:"Select a supported Lucknow neighbourhood and update the visible atelier availability.",
     inputSchema:{type:"object",properties:{location:{type:"string"}},required:["location"],additionalProperties:false},
     annotations:{readOnlyHint:false,untrustedContentHint:false},
     execute(input){
       const match = locations.find(([name]) => name === input.location);
-      if(!match) throw new Error("Area is not served in this demo");
+      if(!match) throw new Error("Area is not served by the Lucknow atelier");
       state.location = match[0];
       $("#locationText").textContent = state.location;
       $("#checkoutAddress").textContent = state.location;
